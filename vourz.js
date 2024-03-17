@@ -1,3 +1,12 @@
+var _0x97b2 = ["setTime", "getTime", "; expires=", "toGMTString", "cookie", "length", "charAt", "substring", "indexOf", ".navbar", "css", "fixed", "outerWidth", "outerHeight", "night", "#night-mode", "html", "<i class='fas fa-sun'/>", "click", "hasClass", "removeClass", "<i class='fas fa-moon'/>", "addClass", "#Label1 .btn-more", "preventDefault", "closest", "#Label1", "toggleClass", "querySelector", "footer .d-table .d-table-row .d-table-cell .container .row .col-12 .right", "Vourz Bootstrap Template by <a class='tata' href='https://moccatory.blogspot.com/' target='_blank'>Moccatory</a>", "createElement", "div", "right d-inline-block", "innerHTML", "Vourz Bootstrap Blogger Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel='nofollow noopener'>Moccatory</a>", "footer .d-table .d-table-row .d-table-cell .container .row .col-12", "appendChild", "includes", "Vourz Bootstrap Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel='nofollow noopener'>Moccatory</a>", ".aqshal", "querySelectorAll", ".post-body br, .post-body p", "from", "slice", "log", "insertBefore", "parentNode", "nextSibling"];
+(function (_0x42d9fb, _0x1e3170) {
+  var _0x2de03c = function (_0x506c51) {
+    while (--_0x506c51) {
+      _0x42d9fb.push(_0x42d9fb.shift());
+    }
+  };
+  _0x2de03c(++_0x1e3170);
+})(_0x97b2, 0xf5);
 var _0x5afa = function (_0x3425e6, _0x1996ac) {
   _0x3425e6 = _0x3425e6 - 0x0;
   var _0x5790a6 = _0x97b2[_0x3425e6];
@@ -59,22 +68,6 @@ $(document).ready(function () {
     }
   });
 });
-$(_0x5afa('0x17')).on("click", function (_0x592b2a) {
-  _0x592b2a[_0x5afa('0x18')]();
-  $(this)[_0x5afa('0x19')](_0x5afa('0x1a'))[_0x5afa('0x1b')]("open");
-});
-let footer = document[_0x5afa('0x1c')](_0x5afa('0x1d'));
-let cr = _0x5afa('0x1e');
-if (!footer) {
-  let a = document[_0x5afa('0x1f')](_0x5afa('0x20'));
-  a.className = _0x5afa('0x21');
-  a[_0x5afa('0x22')] = _0x5afa('0x23');
-  document.querySelector(_0x5afa('0x24'))[_0x5afa('0x25')](a);
-} else {
-  if (!footer[_0x5afa('0x22')][_0x5afa('0x26')](cr)) {
-    footer.innerHTML = _0x5afa('0x27');
-  }
-}
 var _0xa93d = [_0x5afa('0x28'), _0x5afa('0x29'), _0x5afa('0x2a'), _0x5afa('0x5'), _0x5afa('0x2b'), _0x5afa('0x2c'), _0x5afa('0x2d'), "nodeName", "P", _0x5afa('0x2e'), _0x5afa('0x2f'), _0x5afa('0x30')];
 (function () {
   let _0x247e4b = document[_0xa93d[0x1]](_0xa93d[0x0]);

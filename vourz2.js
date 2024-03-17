@@ -80,7 +80,7 @@ let cr = "Vourz Bootstrap Template by <a class='tata' href='https://moccatory.bl
 
 if (!footer) {
   let div = document.createElement("div");
-  div.className = "right d-inline-block";
+  div.className = "right d-inline-block aqshal";
   div.innerHTML = "Vourz Bootstrap Blogger Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel='nofollow noopener'>Moccatory</a>";
   document.querySelector("footer .d-table .d-table-row .d-table-cell .container .row .col-12").appendChild(div);
 } else {

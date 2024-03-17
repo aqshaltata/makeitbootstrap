@@ -1,92 +1,108 @@
-var _0x97b2 = ["setTime", "getTime", "; expires=", "toGMTString", "cookie", "length", "charAt", "substring", "indexOf", ".navbar", "css", "fixed", "outerWidth", "outerHeight", "night", "#night-mode", "html", "<i class='fas fa-sun'/>", "click", "hasClass", "removeClass", "<i class='fas fa-moon'/>", "addClass", "#Label1 .btn-more", "preventDefault", "closest", "#Label1", "toggleClass", "querySelector", "footer .d-table .d-table-row .d-table-cell .container .row .col-12 .right", "Vourz Bootstrap Template by <a class='tata' href='https://moccatory.blogspot.com/' target='_blank'>Moccatory</a>", "createElement", "div", "right d-inline-block", "innerHTML", "Vourz Bootstrap Blogger Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel='nofollow noopener'>Moccatory</a>", "footer .d-table .d-table-row .d-table-cell .container .row .col-12", "appendChild", "includes", "Vourz Bootstrap Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel='nofollow noopener'>Moccatory</a>", ".aqshal", "querySelectorAll", ".post-body br, .post-body p", "from", "slice", "log", "insertBefore", "parentNode", "nextSibling"];
-(function (_0x42d9fb, _0x1e3170) {
-  var _0x2de03c = function (_0x506c51) {
-    while (--_0x506c51) {
-      _0x42d9fb.push(_0x42d9fb.shift());
+var a = ["setTime", "getTime", "; expires=", "toGMTString", "cookie", "length", "charAt", "substring", "indexOf", ".navbar", "css", "fixed", "outerWidth", "outerHeight", "night", "#night-mode", "html", "<i class='fas fa-sun'/>", "click", "hasClass", "removeClass", "<i class='fas fa-moon'/>", "addClass", "#Label1 .btn-more", "preventDefault", "closest", "#Label1", "toggleClass", "querySelector", "footer .d-table .d-table-row .d-table-cell .container .row .col-12 .right", "Vourz Bootstrap Template by <a class='tata' href='https://moccatory.blogspot.com/' target='_blank'>Moccatory</a>", "createElement", "div", "right d-inline-block", "innerHTML", "Vourz Bootstrap Blogger Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel='nofollow noopener'>Moccatory</a>", "footer .d-table .d-table-row .d-table-cell .container .row .col-12", "appendChild", "includes", "Vourz Bootstrap Template by <a href='https://moccatory.blogspot.com/' class='tata' target='_blank' rel='nofollow noopener'>Moccatory</a>", ".aqshal", "querySelectorAll", ".post-body br, .post-body p", "from", "slice", "log", "insertBefore", "parentNode", "nextSibling"];
+(function (b, c) {
+  var d = function (e) {
+    while (--e) {
+      b.push(b.shift());
     }
   };
-  _0x2de03c(++_0x1e3170);
-})(_0x97b2, 0xf5);
-var _0x5afa = function (_0x3425e6, _0x1996ac) {
-  _0x3425e6 = _0x3425e6 - 0x0;
-  var _0x5790a6 = _0x97b2[_0x3425e6];
-  return _0x5790a6;
+  d(++c);
+})(a, f);
+var m = function (f, g) {
+  f = f - 0x0;
+  var h = a[f];
+  return h;
 };
-function createCookie(_0xd4c42e, _0xc92e73, _0x19acb0) {
-  if (_0x19acb0) {
-    var _0x5e0905 = new Date();
-    _0x5e0905[_0x5afa('0x0')](_0x5e0905[_0x5afa('0x1')]() + _0x19acb0 * 0x18 * 0x3c * 0x3c * 0x3e8);
-    var _0x40823b = _0x5afa('0x2') + _0x5e0905[_0x5afa('0x3')]();
+function createCookie(i, j, k) {
+  if (k) {
+    var l = new Date();
+    l[m('0x0')](l[m('0x1')]() + k * 0x18 * 0x3c * 0x3c * 0x3e8);
+    var n = m('0x2') + l[m('0x3')]();
   } else {
-    var _0x40823b = '';
+    var n = '';
   }
-  document[_0x5afa('0x4')] = _0xd4c42e + "=" + _0xc92e73 + _0x40823b + "; path=/";
+  document[m('0x4')] = i + "=" + j + n + "; path=/";
 }
-function readCookie(_0x5c1707) {
-  var _0x3599df = _0x5c1707 + "=";
-  var _0x3c17cb = document[_0x5afa('0x4')].split(";");
-  for (var _0x379148 = 0x0; _0x379148 < _0x3c17cb[_0x5afa('0x5')]; _0x379148++) {
-    var _0x4af3dd = _0x3c17cb[_0x379148];
-    while (_0x4af3dd[_0x5afa('0x6')](0x0) == " ") {
-      _0x4af3dd = _0x4af3dd[_0x5afa('0x7')](0x1, _0x4af3dd[_0x5afa('0x5')]);
+function readCookie(o) {
+  var p = o + "=";
+  var q = document[m('0x4')].split(";");
+  for (var r = 0x0; r < q[m('0x5')]; r++) {
+    var s = q[r];
+    while (s[m('0x6')](0x0) == " ") {
+      s = s[m('0x7')](0x1, s[m('0x5')]);
     }
-    if (_0x4af3dd[_0x5afa('0x8')](_0x3599df) == 0x0) {
-      return _0x4af3dd[_0x5afa('0x7')](_0x3599df[_0x5afa('0x5')], _0x4af3dd[_0x5afa('0x5')]);
+    if (s[m('0x8')](p) == 0x0) {
+      return s[m('0x7')](p[m('0x5')], s[m('0x5')]);
     }
   }
   return null;
 }
-function eraseCookie(_0x37815b) {
-  createCookie(_0x37815b, '', -0x1);
+function eraseCookie(t) {
+  createCookie(t, '', -0x1);
 }
 $(document).ready(function () {
-  var _0x416627 = $(_0x5afa('0x9'));
-  var _0x1cf4c0 = _0x416627.parent();
+  var u = $(m('0x9'));
+  var v = u.parent();
   $(window).on("resize load", function () {
-    _0x416627[_0x5afa('0xa')]({
-      "position": _0x5afa('0xb'),
-      "width": _0x1cf4c0[_0x5afa('0xc')]() + "px",
+    u[m('0xa')]({
+      "position": m('0xb'),
+      "width": v[m('0xc')]() + "px",
       "zIndex": "9999999"
     });
-    _0x1cf4c0[_0x5afa('0xa')]({
-      "height": _0x416627[_0x5afa('0xd')]() + "px"
+    v[m('0xa')]({
+      "height": u[m('0xd')]() + "px"
     });
   });
-  if (readCookie(_0x5afa('0xe'))) {
-    $("*").addClass(_0x5afa('0xe'));
-    $(_0x5afa('0xf'))[_0x5afa('0x10')](_0x5afa('0x11'));
+  if (readCookie(m('0xe'))) {
+    $("*").addClass(m('0xe'));
+    $(m('0xf'))[m('0x10')](m('0x11'));
   }
-  $("#night-mode")[_0x5afa('0x12')](function () {
-    if ($(this)[_0x5afa('0x13')](_0x5afa('0xe'))) {
-      $("*")[_0x5afa('0x14')](_0x5afa('0xe'));
-      $("#night-mode")[_0x5afa('0x10')](_0x5afa('0x15'));
+  $("#night-mode")[m('0x12')](function () {
+    if ($(this)[m('0x13')](m('0xe'))) {
+      $("*")[m('0x14')](m('0xe'));
+      $("#night-mode")[m('0x10')](m('0x15'));
       eraseCookie("night");
     } else {
-      $("*")[_0x5afa('0x16')](_0x5afa('0xe'));
-      $(_0x5afa('0xf'))[_0x5afa('0x10')](_0x5afa('0x11'));
-      createCookie(_0x5afa('0xe'), null, 0x1b58);
+      $("*")[m('0x16')](m('0xe'));
+      $(m('0xf'))[m('0x10')](m('0x11'));
+      createCookie(m('0xe'), null, 0x1b58);
     }
   });
 });
-var _0xa93d = [_0x5afa('0x28'), _0x5afa('0x29'), _0x5afa('0x2a'), _0x5afa('0x5'), _0x5afa('0x2b'), _0x5afa('0x2c'), _0x5afa('0x2d'), "nodeName", "P", _0x5afa('0x2e'), _0x5afa('0x2f'), _0x5afa('0x30')];
+$(m('0x17')).on("click", function (w) {
+  w[m('0x18')]();
+  $(this)[m('0x19')](m('0x1a'))[m('0x1b')]("open");
+});
+let footer = document[m('0x1c')](m('0x1d'));
+let cr = m('0x1e');
+if (!footer) {
+  let a = document[m('0x1f')](m('0x20'));
+  a.className = m('0x21');
+  a[m('0x22')] = m('0x23');
+  document.querySelector(m('0x24'))[m('0x25')](a);
+} else {
+  if (!footer[m('0x22')][m('0x26')](cr)) {
+    footer.innerHTML = m('0x27');
+  }
+}
+var w = [m('0x28'), m('0x29'), m('0x2a'), m('0x5'), m('0x2b'), m('0x2c'), m('0x2d'), "nodeName", "P", m('0x2e'), m('0x2f'), m('0x30')];
 (function () {
-  let _0x247e4b = document[_0xa93d[0x1]](_0xa93d[0x0]);
-  if (_0x247e4b) {
-    let _0x324b11 = document[_0xa93d[0x1]](_0xa93d[0x2]);
-    let _0x13d8e7 = _0x247e4b[_0xa93d[0x3]] + 0x1;
-    let _0x442cf6 = _0x324b11[_0xa93d[0x3]] / _0x13d8e7;
-    c = Array[_0xa93d[0x4]]({
-      "length": _0x13d8e7
-    }, (_0x44429a, _0x1a258e) => _0x1a258e + 0x1);
-    d = c[_0xa93d[0x5]](0x0, -0x1);
-    for (let _0x3a345e = 0x0; _0x3a345e < d[_0xa93d[0x3]]; _0x3a345e++) {
-      let _0x422162 = d[_0x3a345e];
-      let _0x5399e8 = parseInt(_0x442cf6 * _0x422162);
-      console[_0xa93d[0x6]](_0x324b11[_0x5399e8]);
-      if (_0x324b11[_0x5399e8][_0xa93d[0x7]] == _0xa93d[0x8]) {
-        _0x324b11[_0x5399e8][_0xa93d[0xa]][_0xa93d[0x9]](_0x247e4b[_0x3a345e], _0x324b11[_0x5399e8]);
+  let x = document[w[0x1]](w[0x0]);
+  if (x) {
+    let y = document[w[0x1]](w[0x2]);
+    let z = x[w[0x3]] + 0x1;
+    let aa = y[w[0x3]] / z;
+    c = Array[w[0x4]]({
+      "length": z
+    }, (ab, ac) => ac + 0x1);
+    d = c[w[0x5]](0x0, -0x1);
+    for (let ad = 0x0; ad < d[w[0x3]]; ad++) {
+      let af = d[ad];
+      let ag = parseInt(aa * af);
+      console[w[0x6]](y[ag]);
+      if (y[ag][w[0x7]] == w[0x8]) {
+        y[ag][w[0xa]][w[0x9]](x[ad], y[ag]);
       } else {
-        _0x324b11[_0x5399e8][_0xa93d[0xa]][_0xa93d[0x9]](_0x247e4b[_0x3a345e], _0x324b11[_0x5399e8][_0xa93d[0xb]]);
+        y[ag][w[0xa]][w[0x9]](x[ad], y[ag][w[0xb]]);
       }
     }
   }
